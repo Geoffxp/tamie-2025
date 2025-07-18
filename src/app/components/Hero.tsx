@@ -5,7 +5,10 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative bg-campaign-blue text-white py-16 md:py-48 px-6 relative overflow-hidden pt-64">
+    <section
+      className="relative bg-campaign-blue text-white py-16 md:py-48 px-6 relative overflow-hidden pt-64"
+      id="home"
+    >
       <Image
         src="/mt-rainier-washington.jpg"
         alt="Mount Rainier Washington"
