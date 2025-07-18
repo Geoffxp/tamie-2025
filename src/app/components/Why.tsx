@@ -24,7 +24,7 @@ export default function Why() {
         </div>
 
         {/* Text Content */}
-        <div>
+        <div className="relative z-10 text-white">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Why I&apos;m Running for Mayor
           </h2>

@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
         height="2000"
         className="opacity-25 object-cover grayscale-100 w-full h-full absolute top-0 left-0"
       />
-      <div className="max-w-2xl mx-auto bg-white/85 relative z-10 p-4 rounded-lg shadow-lg">
+      <div className="max-w-2xl mx-auto bg-white relative z-10 p-4 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">Contact</h2>
         <p className="text-gray-600 mb-6">
           For inquiries, collaborations, or just to say hello, please reach out
