@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Why() {
   return (
@@ -27,10 +26,10 @@ export default function Why() {
         {/* Text Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Why I'm Running for Mayor
+            Why I&apos;m Running for Mayor
           </h2>
           <p className="text-white text-lg leading-relaxed mb-6">
-            I'm running for Mayor because I believe in the people of Black
+            I&apos;m running for Mayor because I believe in the people of Black
             Diamond. This is our home — and it deserves leadership that listens,
             leads with integrity, and puts our community first. Together, we can
             build a future rooted in safety, opportunity, and pride.
