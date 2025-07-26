@@ -5,25 +5,30 @@ export default function Biography() {
         <h2 className="text-3xl font-semibold mb-6">
           I Care About This Community!
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-5 gap-8">
           <img
-            src="/tamie-with-dad.jpg"
+            src="/skatepark-tamie-deady.jpg"
             alt="tamie Deady"
-            className="w-full h-auto rounded-xl shadow-md"
+            className="md:col-span-2 w-full h-full object-cover rounded-xl shadow-md"
           />
-          <div className="md:col-span-2 space-y-4 text-lg leading-relaxed">
+          <div className="md:col-span-3 space-y-4 text-lg leading-relaxed">
             <p>
-              My tenure has involved significant achievements and some difficult
-              decisions. I have consistently ensured my availability to address
-              your concerns and have actively volunteered my assistance where
-              needed, ensuring that our community is strong and thriving.
+              I was elected to the City Council in 2011, and have proudly served
+              for the past 14 years. I am the longest-tenured Councilmember
             </p>
+            <p>I was appointed Mayor Pro Tempore in 2015, 2019. 2022-2025</p>
             <p>
-              I would love to represent the citizens of Black Diamond in a new
-              role, and with the same passion, integrity, with open and honest
-              leadership I look forward to engaging with each of you as I
-              campaign for Mayor of Black Diamond.
+              I earned my Association of Washington Cities Advanced Certificate
+              of Municipal leadership in 2018
             </p>
+            <p>I have received the followinc awards from our community:</p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>2024: Citizen of the Year</li>
+              <li>2016 and 2019: Civil Servant Award</li>
+              <li>
+                2020: Hero Award for organizing garage sale that raised $26,000
+              </li>
+            </ul>
           </div>
         </div>
       </div>

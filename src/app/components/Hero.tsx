@@ -34,7 +34,7 @@ export default function Hero() {
             she’s ready to lead it forward — with integrity, vision, and heart.
           </p>
           <a
-            href="#get-involved"
+            href="#contact"
             className="inline-block bg-[color:var(--color-campaign-red)] px-6 py-3 text-white font-semibold rounded-md shadow-lg hover:brightness-110 transition"
           >
             Join the Campaign

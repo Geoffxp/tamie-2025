@@ -25,7 +25,7 @@ export default function ThreeCards() {
   return (
     <section
       className="bg-campaign-blue text-white relative overflow-hidden wavy"
-      id="get-involved"
+      id="my-priorities"
     >
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/5 to-white/0 pointer-events-none"></div>
 

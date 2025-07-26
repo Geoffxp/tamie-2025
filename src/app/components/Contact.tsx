@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ContactForm from "./ContactForm";
 
 const Contact: React.FC = () => {
   return (
@@ -17,50 +18,7 @@ const Contact: React.FC = () => {
           For inquiries, collaborations, or just to say hello, please reach out
           using the form below or email us directly.
         </p>
-        <form className="space-y-4">
-          <div>
-            <label className="block text-gray-700 mb-1" htmlFor="name">
-              Name
-            </label>
-            <input
-              className="w-full border border-campaign-blue rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              type="text"
-              id="name"
-              name="name"
-              required
-            />
-          </div>
-          <div>
-            <label className="block text-gray-700 mb-1" htmlFor="email">
-              Email
-            </label>
-            <input
-              className="w-full border border-campaign-blue rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-          </div>
-          <div>
-            <label className="block text-gray-700 mb-1" htmlFor="message">
-              Message
-            </label>
-            <textarea
-              className="w-full border border-campaign-blue rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              id="message"
-              name="message"
-              rows={4}
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-          >
-            Send Message
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );

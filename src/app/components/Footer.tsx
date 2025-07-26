@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Campaign Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3">Tamie Boxx-Deady</h2>
+          <h2 className="text-2xl font-bold mb-3">Tamie L. Boxx-Deady</h2>
           <p className="text-gray-300 max-w-sm">
             Dedicated to honest leadership and a brighter future for Black
             Diamond.
@@ -25,7 +25,7 @@ export default function Footer() {
           <h3 className="font-semibold mb-3">Connect</h3>
           <div className="flex space-x-4 text-gray-300">
             <a
-              href="https://facebook.com/TamieBoxxDeady"
+              href="https://www.facebook.com/tamie.boxxdeady"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -34,16 +34,7 @@ export default function Footer() {
               <FaFacebookF size={22} />
             </a>
             <a
-              href="https://twitter.com/TamieBoxxDeady"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitter"
-              className="hover:text-orange-500 transition"
-            >
-              <FaTwitter size={22} />
-            </a>
-            <a
-              href="https://instagram.com/TamieBoxxDeady"
+              href="https://www.instagram.com/tamiedeady6"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -52,7 +43,7 @@ export default function Footer() {
               <FaInstagram size={22} />
             </a>
             <a
-              href="mailto:contact@tamieboxxdeady.com"
+              href="mailto:tamiedeady@comcast.net"
               aria-label="Email"
               className="hover:text-orange-500 transition"
             >
@@ -65,16 +56,18 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Contact</h3>
           <address className="not-italic text-gray-300 space-y-2">
-            <p>123 Campaign Blvd</p>
-            <p>Black Diamond, WA 98010</p>
-            <p>Phone: (253) 555-1234</p>
             <p>
-              Email:{" "}
+              PO Box 523
+              <br />
+              Black Diamond, WA 98010
+            </p>
+            <p>(253) 266-8936</p>
+            <p>
               <a
-                href="mailto:contact@tamieboxxdeady.com"
+                href="mailto:tamiedeady@comcast.net"
                 className="hover:text-orange-500 transition"
               >
-                contact@tamieboxxdeady.com
+                TamieDeady@comcast.net
               </a>
             </p>
           </address>
@@ -82,8 +75,8 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
-        &copy; {new Date().getFullYear()} Tamie Boxx-Deady for Mayor. All rights
-        reserved.
+        &copy; {new Date().getFullYear()} Tamie L. Boxx-Deady for Mayor. All
+        rights reserved.
       </div>
     </footer>
   );

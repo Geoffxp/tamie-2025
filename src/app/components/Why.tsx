@@ -16,7 +16,7 @@ export default function Why() {
         {/* Image */}
         <div className="relative aspect-[5/4] w-full max-w-sm mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-xl">
           <Image
-            src="/tamie-soup-kitchen.jpg" // Replace with real image
+            src="/tamie-board-meeting.jpg" // Replace with real image
             alt="Tamie Boxx-Deady"
             fill
             className="object-cover"

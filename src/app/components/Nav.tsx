@@ -37,10 +37,10 @@ export default function Nav() {
             About
           </Link>
           <Link
-            href="#get-involved"
+            href="#my-priorities"
             className="hover:text-[color:var(--color-gold)] transition-colors"
           >
-            Get Involved
+            My Priorities
           </Link>
           <Link
             href="#contact"
@@ -75,10 +75,10 @@ export default function Nav() {
             About
           </Link>
           <Link
-            href="#get-involved"
+            href="#my-priorities"
             className="block hover:text-[color:var(--color-gold)]"
           >
-            Get Involved
+            My Priorities
           </Link>
           <Link
             href="#contact"
