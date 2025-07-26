@@ -31,7 +31,7 @@ export default function ThreeCards() {
 
       <div className="max-w-7xl mx-auto px-6 py-20 relative z-10">
         <h2 className="text-4xl font-bold text-center mb-16 text-campaign-red drop-shadow">
-          Our Priorities for Black Diamond
+          My Priorities for Black Diamond
         </h2>
         <div className="grid gap-10 md:grid-cols-3">
           {cards.map((card, i) => (
