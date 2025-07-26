@@ -1,11 +1,6 @@
 "use client";
 
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaEnvelope,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
